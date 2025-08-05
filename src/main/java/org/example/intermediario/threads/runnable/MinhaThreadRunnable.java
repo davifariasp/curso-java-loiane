@@ -1,4 +1,4 @@
-package org.example.intermediario.threads;
+package org.example.intermediario.threads.runnable;
 
 public class MinhaThreadRunnable implements Runnable {
 
