@@ -1,4 +1,4 @@
-package org.example.intermediario.threads.sincronia;
+package org.example.intermediario.threads.sincronia.calculadora;
 
 public class Calculadora {
 
