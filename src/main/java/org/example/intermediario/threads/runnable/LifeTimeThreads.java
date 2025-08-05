@@ -13,6 +13,9 @@ public class LifeTimeThreads {
         //Thread.sleep(1000) faz com que a thread atual (neste caso, a thread principal) durma por 1 segundo
         //Thread.join() é usado para esperar que a thread termine sua execução antes de continuar com o restante do código
 
+        //Thread.setPriority(int newPriority) é usado para definir a prioridade da thread, onde valores mais altos indicam maior prioridade.
+        //Thread.setPriority(Thread.MAX_PRIORITY) define a prioridade máxima para a thread, enquanto Thread.setPriority(Thread.MIN_PRIORITY) define a prioridade mínima.
+
         try {
             minhaThread1.join();
             minhaThread2.join();
