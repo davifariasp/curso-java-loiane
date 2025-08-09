@@ -1,4 +1,4 @@
-package org.example.intermediario.garbagecollector;
+package org.example.intermediario.elementosbasicos.garbagecollector;
 
 public class Contato {
     private String nome;
